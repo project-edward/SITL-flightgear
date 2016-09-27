@@ -1,0 +1,83 @@
+<?xml version="1.0"?>
+<PropertyList>
+  <generic>
+    <output>
+        <line_separator>newline</line_separator>
+        <var_separator>tab</var_separator>
+        <!-- Items for altitude -->
+        <chunk>
+          <node>/position/altitude-agl-ft</node>
+          <name>altitude-agl-ft</name>
+          <type>float</type>
+          <format>%03.2f</format>
+        </chunk>
+        <chunk>
+          <node>/position/altitude-ft</node>
+          <name>altitude-ft</name>
+          <type>float</type>
+          <format>%03.2f</format>
+        </chunk>
+
+        <!-- Items for GPS -->
+        <chunk>
+          <node>/position/latitude-deg</node>
+          <name>latitude-deg</name>
+          <type>float</type>
+          <format>%03.2f</format>
+        </chunk>
+        <chunk>
+          <node>/position/longitude-deg</node>
+          <name>longitude-deg</name>
+          <type>float</type>
+          <format>%03.2f</format>
+        </chunk>
+
+        <!-- Items for attitude -->
+        <chunk>
+          <node>/orientation/roll-deg</node>
+          <name>roll-deg</name>
+          <type>float</type>
+          <format>%03.3f</format>
+        </chunk>
+        <chunk>
+          <node>/orientation/pitch-deg</node>
+          <name>pitch-deg</name>
+          <type>float</type>
+          <format>%03.3f</format>
+        </chunk>
+        <chunk>
+          <node>/orientation/heading-magnetic-deg</node>
+          <name>heading-magnetic-deg</name>
+          <type>float</type>
+          <format>%03.3f</format>
+        </chunk>
+
+        <!-- Extra items -->
+        <chunk>
+          <node>/orientation/roll-rate-degps</node>
+          <name>roll-rate-degps</name>
+          <type>float</type>
+          <format>%03.3f</format>
+        </chunk>
+        <chunk>
+          <node>/orientation/pitch-rate-degps</node>
+          <name>pitch-rate-degps</name>
+          <type>float</type>
+          <format>%03.3f</format>
+        </chunk>
+        <chunk>
+          <node>/orientation/yaw-rate-degps</node>
+          <name>yaw-rate-degps</name>
+          <type>float</type>
+          <format>%03.3f</format>
+        </chunk>
+        <chunk>
+          <node>/orientation/airspeed-kt</node>
+          <name>airspeed-kt</name>
+          <type>float</type>
+          <format>%03.3f</format>
+        </chunk>
+ 
+    </output>
+  </generic>
+</PropertyList>
