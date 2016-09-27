@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+message IMU {
+	double roll = 1;
+	double pitch = 2;
+	double yaw = 3;
+}
+
+message GPS {
+	double lat = 1;
+	double lon = 2;
+	double altitude = 3;
+}
+
+message Airspeed {
+	double airspeed = 1;
+}
